@@ -1,0 +1,13 @@
+[package]
+name = "transaction_engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+csv = "1.4.0"
+env_logger = "0.11.9"
+log = "0.4.29"
+serde = { version = "1.0.228", features = ["derive"] }
+
+[dev-dependencies]
+tempfile = "3.8"
